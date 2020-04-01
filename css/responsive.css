@@ -1,0 +1,124 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .bio-head{
+    font-size: 65px;
+     font-weight: 400;
+  }
+
+  .main-header-area .main-menu{
+    margin-top: -50px;
+    margin-left: 550px;
+
+  }
+   .main-header-area .main-menu ul li{
+     margin:0;
+   }
+   .resumeimg{
+     margin-top: -310px;
+     margin-left:140px;
+    }
+   .transparentimg{
+     margin-top: -265px;
+    margin-left: 525px;
+    z-index: 9;
+    width: 19rem;
+   }
+   .pdfbtn{
+    margin-left: 390px;
+    margin-top: -125px;
+   }
+   .content-box{
+     width: 450px;
+     margin-top: -400px;
+     margin-left: 300px;
+     height:325px;
+   padding-top: 5px;
+   }
+
+ }
+
+   @media (min-width: 991px) and (max-width: 1024px){
+     /* .container{
+       padding: 0px 140px;
+     } */
+     .bio-head{
+       font-size: 65px;
+       font-weight: 400;
+     }
+     .main-header-area{
+       border-bottom: 0;
+       padding: 20px 0px;
+     }
+     .transparentimg{
+       margin-top: -145px;
+       margin-left: 160px;
+     }
+     .pdfbtn{
+       left: 110px;
+       margin-top: -120px;
+       width:370px;
+     }
+     .hobbies{
+       margin: 0 15px;
+     }
+     .hobbiename{
+       margin-left: 0px;
+     }
+}
+
+ @media (min-width: 768px) and (max-width: 991px){
+.navbar-brand{
+  margin-left: -30px;
+}
+.main-header-area{
+  border-bottom: 0;
+}
+   .bio-head{
+     font-size: 65px;
+     font-weight: 400;
+   }
+   .transparentimg{
+     margin-top: -130px;
+     margin-left: 170px;
+   }
+.pdfbtn{
+  width: 300px;
+  margin-top: -150px;
+  left: 135px;
+}
+.content-box{
+  margin-top: 60px;
+  width: 450px;
+}
+}
+@media(min-width: 260px) and (max-width: 479px){
+.navbar-brand{
+  margin-left: -42px;
+}
+.logo{
+width :4rem;
+}
+.main-header-area{
+  border-bottom: 0;
+}
+  .portimg,.resumeimg::before{
+    display: none;
+  }
+  .transparentimg{
+    width: 290px;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: 1;
+  }
+.pdfbtn{
+      width: 230px;
+      margin-top: 280px;
+      margin-left: 30px;
+}
+.content-box{
+  position: relative;
+}
+.content-head{
+  font-size: 38px;
+}
+}

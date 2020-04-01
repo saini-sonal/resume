@@ -1,0 +1,253 @@
+*{
+  padding: 0;
+  margin:0;
+
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+a,h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+p,b{
+  font-family: 'IBM Plex Mono', monospace;
+}
+.slicknav_btn {
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 99;
+    border: none;
+    border-radius: 3px;
+    padding: 0;
+    right: 30px;
+    top: -15px;
+}
+span.slicknav_icon:before{
+  top: -6px;
+}
+span.slicknav_icon:after{
+  top: 0;
+}
+.las {
+    font-weight: 300;
+    font-size: 26px;
+}
+.slicknav_menu .slicknav_nav{
+    width: 40%;
+    left: 600px!important;
+    background: #faf2f0!important;
+
+}
+.main-header-area{
+  background-color: #faf3f2;
+  position: relative;
+}
+.logo{
+  width: 7rem;
+margin-top: 12px;
+
+}
+.navbar-brand{
+  color: #000;
+  top: 50%;
+  position: absolute;
+
+}
+.navborder{
+  border-bottom: 1px solid #c1c1c1;
+  margin:0 24px;
+}
+.firstheading{
+  border-bottom: 1px solid #c1c1c1;
+}
+/* .main-header-area{
+  position: relative;
+}
+.main-header-area::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  margin-left: -20px;
+  margin-right: -10px;
+  height: 1px;
+  background: #c1c1c1;
+} */
+.main-header-area .main-menu {
+  text-align: center;
+  padding: 0px;
+}
+ .main-header-area .main-menu ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 ;
+  font-size: 15px;
+
+}
+
+.main-header-area .main-menu ul li a {
+  color: #000;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 800;
+  letter-spacing: .1em;
+  transition: color .2s ease-out;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.main-header-area.sticky .main-menu ul li a {
+    color: #000;
+}
+
+ .main-header-area .main-menu ul li a:hover, .main-header-area .main-menu ul li a.active, .main-header-area .main-menu ul li a:focus {
+  color: #ee7968;
+}
+.color{
+  color: #ee7968;
+}
+ .main-header-area .main-menu ul li:hover > a::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+ .main-header-area .main-menu ul li:first-child a {
+  padding-left: 0;
+}
+.biography{
+  background-color: rgb(250, 242, 240);
+}
+.bio-head{
+  font-size: 36px;
+  font-weight: 400px;
+  font-family: 'Playfair Display',serif;
+}
+.bio-subhead{
+  font-size: 17px;
+  line-height: 33px;
+  font-weight: 400;
+  color: rgb(107, 103, 104);
+  margin-bottom: 100px!important;
+}
+.portimg{
+  width: 100%;
+  box-shadow: 0px 6px 5px ;
+}
+.resumeimg{
+  position: relative;
+  z-index:9;
+
+}
+/* .resumeimg::before{
+  position: absolute;
+  content: "";
+    z-index: -1;
+    top: 250px;
+    left: -520px;
+    background-color: rgb(245, 235, 231);
+    width: 527px;
+    height: 315px;
+
+} */
+.content-box{
+  background: rgb(245, 235, 231);
+  left: 0;
+  height: 285px;
+  top: -18px
+
+}
+.content-banner{
+  position: relative;
+}
+.content{
+  z-index: 99;
+  padding: 0px;
+}
+.content-head{
+  font-size: 40px;
+  line-height: 44px;
+
+
+}
+.content-details{
+  font-size: 19px;
+  line-height: 2.5rem;
+  margin-left: -165px;
+
+}
+.intro{
+  font-size: 13px;
+  line-height: 23px;
+  width: 200px;
+}
+ul.intro li a{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  line-height: 2rem;
+}
+.transparentimg{
+  margin-left: 90px;
+  position: relative;
+  margin-top: -150px;
+}
+.pdfbtn{
+  position: absolute;
+  width: 450px;
+    z-index: 16;
+    background: white;
+    color: #000;
+    padding: 28px 0px;
+    margin-top: -150px;
+}
+.biography-section{
+  background-color: #faf3f2;
+}
+.infotext{
+  line-height: 2rem;
+  font-size: 17px;
+}
+.hobbies-section{
+  background: #faf3f2;
+}
+.hobbies-icon{
+  background:rgb(245, 235, 231)
+}
+.hobbies{
+  margin: 0 19px;
+  padding: 50px 0;
+}
+.hobbieimg{
+  margin: 0 50px;
+}
+.hobbiename{
+  font-size: 13px;
+  margin-left:-20px;
+}
+ textarea{
+   background: #faf3f2 !important;
+   border: 1px solid #000 !important;
+   font-family: 'IBM Plex Mono', monospace;
+   margin-top: 20px;
+ }
+
+ input[type="text"],
+ input[type="tel"],
+ input[type="email"]{
+   background-color:  #faf3f2;
+    border: 1px solid #000 !important;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 30px 10px;
+    margin:15px 0px;
+ }
+button[type="submit"]{
+  border: 0;
+  padding: 8px 36px;
+  background: #ee7968!important;
+  font-family: 'IBM Plex Mono', monospace;
+}
+::placeholder{
+  color: #000!important;
+}

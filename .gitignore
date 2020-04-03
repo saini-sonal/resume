@@ -1,0 +1,5 @@
+hook.py
+.DS_Store
+*/.DS_Store
+hook-config.json
+sdhook-*.log

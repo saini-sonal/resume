@@ -46,7 +46,7 @@ span.slicknav_icon:after{
   position: relative;
 }
 .logo{
-  width: 7rem;
+  width: 8rem;
 margin-top: 12px;
 
 }
@@ -55,10 +55,6 @@ margin-top: 12px;
   top: 50%;
   position: absolute;
 
-}
-.navborder{
-  border-bottom: 1px solid #c1c1c1;
-  margin:0 24px;
 }
 .firstheading{
   border-bottom: 1px solid #c1c1c1;
@@ -130,10 +126,10 @@ margin-top: 12px;
   line-height: 33px;
   font-weight: 400;
   color: rgb(107, 103, 104);
-  margin-bottom: 100px!important;
+
 }
 .portimg{
-  width: 100%;
+
   box-shadow: 0px 6px 5px ;
 }
 .resumeimg{
@@ -154,30 +150,41 @@ margin-top: 12px;
 } */
 .content-box{
   background: rgb(245, 235, 231);
-  left: 0;
-  height: 285px;
-  top: -18px
-
+      margin-left: -45px;
+      height: 255px;
+      top: -18px;
+      width: 400px;
 }
 .content-banner{
   position: relative;
 }
 .content{
   z-index: 99;
-  padding: 0px;
+  padding: 30px;
 }
 .content-head{
-  font-size: 40px;
+  font-size: 38px;
   line-height: 44px;
-
 
 }
 .content-details{
   font-size: 19px;
   line-height: 2.5rem;
-  margin-left: -165px;
+  margin-left: -160px;
 
 }
+.content-email{
+  margin-left: -175px;
+  font-size: 19px;
+  margin-bottom: 0!important;
+  color: rgb(238, 121, 104);
+}
+.content-number
+{
+margin-left: -240px;
+font-size: 19px;
+margin-bottom: 0!important;
+  }
 .intro{
   font-size: 13px;
   line-height: 23px;
@@ -189,18 +196,21 @@ ul.intro li a{
   line-height: 2rem;
 }
 .transparentimg{
-  margin-left: 90px;
-  position: relative;
-  margin-top: -150px;
+  width: 265px;
+  margin-left: 97px;
+  position: absolute;
+  margin-top: 130px;
+  z-index: 1;
 }
 .pdfbtn{
   position: absolute;
-  width: 450px;
+  padding: 21px 25px!important;
     z-index: 16;
     background: white;
     color: #000;
-    padding: 28px 0px;
-    margin-top: -150px;
+    width: 260px;
+margin-top: 245px;
+margin-left: 0px;
 }
 .biography-section{
   background-color: #faf3f2;
@@ -220,7 +230,7 @@ ul.intro li a{
   padding: 50px 0;
 }
 .hobbieimg{
-  margin: 0 50px;
+  margin: 0 100px;
 }
 .hobbiename{
   font-size: 13px;
@@ -232,7 +242,9 @@ ul.intro li a{
    font-family: 'IBM Plex Mono', monospace;
    margin-top: 20px;
  }
-
+ textarea.form-control {
+     height: 137px;
+ }
  input[type="text"],
  input[type="tel"],
  input[type="email"]{
@@ -244,7 +256,7 @@ ul.intro li a{
  }
 button[type="submit"]{
   border: 0;
-  padding: 8px 36px;
+  padding: 15px 36px;
   background: #ee7968!important;
   font-family: 'IBM Plex Mono', monospace;
 }

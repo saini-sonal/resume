@@ -3,7 +3,13 @@
     font-size: 65px;
      font-weight: 400;
   }
-
+  .navborder{
+    border-bottom: 1px solid #c1c1c1;
+    margin:0 24px;
+  }
+.bio-subhead{
+  margin-bottom: 100px!important;
+}
   .main-header-area .main-menu{
     margin-top: -50px;
     margin-left: 550px;
@@ -17,51 +23,80 @@
      margin-left:140px;
     }
    .transparentimg{
-     margin-top: -265px;
+     margin-top: -190px;
     margin-left: 525px;
     z-index: 9;
     width: 19rem;
    }
    .pdfbtn{
     margin-left: 390px;
-    margin-top: -125px;
+    margin-top: -45px;
+    width: 400px!important;
    }
    .content-box{
      width: 450px;
-     margin-top: -400px;
-     margin-left: 300px;
-     height:325px;
+     margin-top: -355px;
+     margin-left: 285px;
+     height:350px;
    padding-top: 5px;
    }
-
+.content{
+  padding:0px;
+}
+.hobbiename{
+  margin-left: 80px;
+}
  }
 
    @media (min-width: 991px) and (max-width: 1024px){
-     /* .container{
-       padding: 0px 140px;
-     } */
+
      .bio-head{
        font-size: 65px;
        font-weight: 400;
+       width:684px;
      }
      .main-header-area{
        border-bottom: 0;
        padding: 20px 0px;
      }
-     .transparentimg{
-       margin-top: -145px;
-       margin-left: 160px;
+     .resumehead{
+       margin-top: 50px!important;
      }
+     .portimg{
+       width: 400px;
+       margin-left: -80px;
+     }
+
+        .transparentimg{
+          margin-top: -130px;
+          margin-left: 170px;
+        }
      .pdfbtn{
-       left: 110px;
-       margin-top: -120px;
-       width:370px;
+       width: 300px;
+       margin-top: -150px;
+       left: 135px;
+     }
+     .content-box {
+         margin-top: 400px;
+         width: 450px;
+         margin-left: 160px;
+     }
+     .transparentimg {
+         margin-top: 30px;
+         margin-left: 130px;
+         width: 300px;
+     }
+     .pdfbtn {
+         width: 285px;
+         margin-top: 215px;
+         left: 165px;
      }
      .hobbies{
-       margin: 0 15px;
+       margin: 0px;
+
      }
      .hobbiename{
-       margin-left: 0px;
+         margin-left: -180px;
      }
 }
 
@@ -72,10 +107,19 @@
 .main-header-area{
   border-bottom: 0;
 }
-   .bio-head{
-     font-size: 65px;
-     font-weight: 400;
-   }
+.bio-head{
+  font-size: 65px;
+  font-weight: 400;
+  width:684px;
+}
+.resumehead{
+  margin-top: 50px!important;
+}
+.portimg{
+  width: 400px;
+  margin-left: -80px;
+}
+
    .transparentimg{
      margin-top: -130px;
      margin-left: 170px;
@@ -85,17 +129,32 @@
   margin-top: -150px;
   left: 135px;
 }
-.content-box{
-  margin-top: 60px;
-  width: 450px;
+.content-box {
+    margin-top: 400px;
+    width: 450px;
+    margin-left: 110px;
+}
+.transparentimg {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 300px;
+}
+.pdfbtn {
+    width: 260px;
+    margin-top: 215px;
+    left: 75px;
+}
+.hobbies{
+  margin: 0px;
+
+}
+.hobbiename{
+    margin-left: -50px;
 }
 }
 @media(min-width: 260px) and (max-width: 479px){
 .navbar-brand{
   margin-left: -42px;
-}
-.logo{
-width :4rem;
 }
 .main-header-area{
   border-bottom: 0;
@@ -103,22 +162,9 @@ width :4rem;
   .portimg,.resumeimg::before{
     display: none;
   }
-  .transparentimg{
-    width: 290px;
-    margin-left: 70px;
-    position: absolute;
-    margin-top: 120px;
-    z-index: 1;
-  }
-.pdfbtn{
-      width: 230px;
-      margin-top: 280px;
-      margin-left: 30px;
-}
+
 .content-box{
   position: relative;
 }
-.content-head{
-  font-size: 38px;
-}
+
 }

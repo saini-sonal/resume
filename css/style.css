@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin:0;
-
+outline: none;
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
@@ -13,6 +13,21 @@ a,h1,h2,h3,h4,h5,h6{
 p,b{
   font-family: 'IBM Plex Mono', monospace;
 }
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  transition:all 0.25s ease;
+  padding-top: 7px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background:rgb(238, 121, 104);
+  line-height: 45px;
+  z-index: 9999;
+}
+
+
 .slicknav_btn {
     background-color: transparent;
     cursor: pointer;
@@ -32,8 +47,19 @@ span.slicknav_icon:after{
   top: 0;
 }
 .las {
-    font-weight: 300;
+
     font-size: 26px;
+
+}
+.maillink{
+  color: rgb(238, 121, 104);
+  font-weight: 300;
+}
+.icon{
+color: rgb(238, 121, 104);
+}
+.pageup{
+  color:#fff;
 }
 .slicknav_menu .slicknav_nav{
     width: 40%;
@@ -41,9 +67,9 @@ span.slicknav_icon:after{
     background: #faf2f0!important;
 
 }
-.main-header-area{
+#mainNav{
   background-color: #faf3f2;
-  position: relative;
+  height: 95px;
 }
 .logo{
   width: 8rem;
@@ -59,31 +85,18 @@ margin-top: 12px;
 .firstheading{
   border-bottom: 1px solid #c1c1c1;
 }
-/* .main-header-area{
-  position: relative;
-}
-.main-header-area::after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  margin-left: -20px;
-  margin-right: -10px;
-  height: 1px;
-  background: #c1c1c1;
-} */
-.main-header-area .main-menu {
+#mainNav .navbar-nav{
   text-align: center;
   padding: 0px;
 }
- .main-header-area .main-menu ul li {
+#mainNav .navbar-nav li {
   display: inline-block;
   position: relative;
   margin: 0 ;
   font-size: 15px;
-
 }
 
-.main-header-area .main-menu ul li a {
+ #mainNav .navbar-nav li a {
   color: #000;
   font-size: 15px;
   font-family: 'IBM Plex Mono', monospace;
@@ -96,22 +109,36 @@ margin-top: 12px;
     transition-delay: 0s;
 }
 
-.main-header-area.sticky .main-menu ul li a {
-    color: #000;
-}
-
- .main-header-area .main-menu ul li a:hover, .main-header-area .main-menu ul li a.active, .main-header-area .main-menu ul li a:focus {
+ #mainNav .navbar-nav li a:hover,  #mainNav .navbar-nav li a.active,  #mainNav .navbar-nav li a:focus {
   color: #ee7968;
 }
 .color{
   color: #ee7968;
 }
- .main-header-area .main-menu ul li:hover > a::before {
+ #mainNav .navbar-nav li:hover > a::before {
   opacity: 1;
   transform: scaleX(1);
 }
- .main-header-area .main-menu ul li:first-child a {
+ #mainNav .navbar-nav li:first-child a {
   padding-left: 0;
+}
+#mainNav.scrolled{
+ background-color:  #faf3f2;
+ height: 75px;
+}
+#mainNav.scrolled #myBtn{
+ background-color: #64a19d;
+}
+#mainNav.scrolled .navbar-brand{
+ color: #000;
+}
+#mainNav.scrolled .navbar-nav .nav-item .nav-link{
+ color: #000;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active{
+  color: rgb(238, 121, 104);
+  outline: 0;
+  border-bottom: 1px solid rgb(238, 121, 104);
 }
 .biography{
   background-color: rgb(250, 242, 240);
@@ -204,6 +231,7 @@ ul.intro li a{
 }
 .pdfbtn{
   position: absolute;
+  font-family: 'IBM Plex Mono', monospace;
   padding: 21px 25px!important;
     z-index: 16;
     background: white;
@@ -250,6 +278,7 @@ margin-left: 0px;
  input[type="email"]{
    background-color:  #faf3f2;
     border: 1px solid #000 !important;
+    outline:none;
     font-family: 'IBM Plex Mono', monospace;
     padding: 30px 10px;
     margin:15px 0px;
@@ -262,4 +291,19 @@ button[type="submit"]{
 }
 ::placeholder{
   color: #000!important;
+}
+textarea{
+  background: #faf3f2 !important;
+  border: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-top: 20px;
+}
+
+input:focus{
+outline: none!important;
+border: 1px solid rgb(238, 121, 104)!important;;
+}
+textarea:focus{
+outline: none!important;
+border: 1px solid rgb(238, 121, 104)!important;;
 }

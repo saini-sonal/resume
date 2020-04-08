@@ -3,21 +3,14 @@
     font-size: 65px;
      font-weight: 400;
   }
-  .navborder{
+  .navbar{
     border-bottom: 1px solid #c1c1c1;
-    margin:0 24px;
+    margin: 0 28px;
   }
 .bio-subhead{
   margin-bottom: 100px!important;
 }
-  .main-header-area .main-menu{
-    margin-top: -50px;
-    margin-left: 550px;
 
-  }
-   .main-header-area .main-menu ul li{
-     margin:0;
-   }
    .resumeimg{
      margin-top: -310px;
      margin-left:140px;
@@ -46,10 +39,27 @@
 .hobbiename{
   margin-left: 80px;
 }
+.progress-container {
+  width: 100%;
+  height: .5px;
+  background-color: #87B6C1;
+  transform: rotate(90deg) translateY(101px) translateX(5px);
+  margin-left: 220px;
+}
+
+.progress-bar {
+  height: 1.5px;
+  background-color: rgb(135, 182, 193);
+  width: 0%;
+}
  }
 
    @media (min-width: 991px) and (max-width: 1024px){
-
+     .navbar-nav{
+       background: #faf3f2;
+       width: 40%;
+         height: 100vh;
+     }
      .bio-head{
        font-size: 65px;
        font-weight: 400;
@@ -104,6 +114,11 @@
 .navbar-brand{
   margin-left: -30px;
 }
+.navbar-nav{
+  background: #faf3f2;
+  width: 40%;
+    height: 100vh;
+}
 .main-header-area{
   border-bottom: 0;
 }
@@ -156,6 +171,11 @@
 .navbar-brand{
   margin-left: -42px;
 }
+.navbar-nav{
+  background: #faf3f2;
+  width: 40%;
+    height: 100vh;
+}
 .main-header-area{
   border-bottom: 0;
 }
@@ -167,4 +187,24 @@
   position: relative;
 }
 
+}
+
+@media (min-width:260px) and (max-width:374px){
+  .content-head {
+    font-size: 33px;
+  }
+  .content-box{
+        width: 357px;
+  }
+  .pdfbtn{
+        margin-top: 290px;
+  }
+  .transparentimg{
+        width: 215px;
+            margin-top: 177px;
+  }
+  .navbar-nav{
+    margin-right: -16px;
+    width: 50%;
+  }
 }

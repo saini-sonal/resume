@@ -185,9 +185,12 @@
 
 .content-box{
   position: relative;
-}
 
 }
+.transparentimg{
+      width: 227px;
+    }
+  }
 
 @media (min-width:260px) and (max-width:374px){
   .content-head {
@@ -201,6 +204,26 @@
   }
   .transparentimg{
         width: 215px;
+            margin-top: 177px;
+  }
+  .navbar-nav{
+    margin-right: -16px;
+    width: 50%;
+  }
+}
+
+@media (min-width:260px) and (max-width:340px){
+  .content-head {
+    font-size: 28px;
+  }
+  .content-box{
+        width: 310px;
+  }
+  .pdfbtn{
+        margin-top: 290px;
+  }
+  .transparentimg{
+        width: 175px;
             margin-top: 177px;
   }
   .navbar-nav{

@@ -177,10 +177,10 @@ margin-top: 12px;
 } */
 .content-box{
   background: rgb(245, 235, 231);
-      margin-left: -45px;
+      margin-left: -24px;
       height: 255px;
       top: -18px;
-      width: 400px;
+      width: 370px;
 }
 .content-banner{
   position: relative;
@@ -190,7 +190,7 @@ margin-top: 12px;
   padding: 30px;
 }
 .content-head{
-  font-size: 38px;
+  font-size: 34px;
   line-height: 44px;
 
 }

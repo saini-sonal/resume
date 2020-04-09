@@ -185,11 +185,13 @@
 
 .content-box{
   position: relative;
-width: 351px;
+width: 367px;
 }
 .transparentimg{
       width: 227px;
+      margin-top: 142px;
     }
+    
   }
 
 @media (min-width:260px) and (max-width:374px){
@@ -209,6 +211,9 @@ width: 351px;
   .navbar-nav{
     width: 50%;
   }
+  .hobbieimg{
+    margin: 0 63px;
+  }
 }
 
 @media (min-width:260px) and (max-width:340px){
@@ -218,8 +223,18 @@ width: 351px;
   .content-box{
         width: 310px;
   }
+  .content-details{
+    margin-left: -86px;
+  }
+  .content-email{
+    margin-left: -109px;
+  }
+  .content-number
+  {
+  margin-left: -174px;
+}
   .pdfbtn{
-        margin-top: 290px;
+        margin-top: 255px;
   }
   .transparentimg{
         width: 175px;

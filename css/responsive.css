@@ -185,7 +185,7 @@
 
 .content-box{
   position: relative;
-
+width: 351px;
 }
 .transparentimg{
       width: 227px;
@@ -194,10 +194,10 @@
 
 @media (min-width:260px) and (max-width:374px){
   .content-head {
-    font-size: 33px;
+    font-size: 30px;
   }
   .content-box{
-        width: 357px;
+        width: 335px;
   }
   .pdfbtn{
         margin-top: 290px;
@@ -207,7 +207,6 @@
             margin-top: 177px;
   }
   .navbar-nav{
-    margin-right: -16px;
     width: 50%;
   }
 }
@@ -227,7 +226,10 @@
             margin-top: 177px;
   }
   .navbar-nav{
-    margin-right: -16px;
     width: 50%;
   }
+  .hobbieimg{
+    margin: 0 53px;
+  }
+
 }

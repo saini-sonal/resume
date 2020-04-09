@@ -177,7 +177,7 @@ margin-top: 12px;
 } */
 .content-box{
   background: rgb(245, 235, 231);
-      margin-left: -24px;
+      margin-left: -40px;
       height: 255px;
       top: -18px;
       width: 370px;
@@ -190,25 +190,25 @@ margin-top: 12px;
   padding: 30px;
 }
 .content-head{
-  font-size: 34px;
+  font-size: 32px;
   line-height: 44px;
 
 }
 .content-details{
   font-size: 19px;
   line-height: 2.5rem;
-  margin-left: -160px;
+  margin-left: -86px;
 
 }
 .content-email{
-  margin-left: -175px;
+  margin-left: -109px;
   font-size: 19px;
   margin-bottom: 0!important;
   color: rgb(238, 121, 104);
 }
 .content-number
 {
-margin-left: -240px;
+margin-left: -174px;
 font-size: 19px;
 margin-bottom: 0!important;
   }

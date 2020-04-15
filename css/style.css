@@ -27,25 +27,6 @@ p,b{
   z-index: 9999;
 }
 
-
-.slicknav_btn {
-    background-color: transparent;
-    cursor: pointer;
-    margin-bottom: 10px;
-    position: absolute;
-    z-index: 99;
-    border: none;
-    border-radius: 3px;
-    padding: 0;
-    right: 30px;
-    top: -15px;
-}
-span.slicknav_icon:before{
-  top: -6px;
-}
-span.slicknav_icon:after{
-  top: 0;
-}
 .las {
 
     font-size: 26px;
@@ -60,12 +41,6 @@ color: rgb(238, 121, 104);
 }
 .pageup{
   color:#fff;
-}
-.slicknav_menu .slicknav_nav{
-    width: 40%;
-    left: 600px!important;
-    background: #faf2f0!important;
-
 }
 #mainNav{
   background-color: #faf3f2;
